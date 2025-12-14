@@ -21,5 +21,4 @@ public class LoginPage {
         loginBtn.submit();
         return this;
     }
-
 }

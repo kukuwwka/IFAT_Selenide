@@ -14,7 +14,6 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
         Configuration.browser = "chrome";
-        Configuration.browserSize = "1920x1080";
         Configuration.timeout = 9000;
         Configuration.headless = false;
         Configuration.baseUrl = "https://app.qase.io/";
